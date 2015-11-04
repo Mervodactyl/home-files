@@ -43,8 +43,12 @@ Now commit and push back up to your remote fork. At this point, I would advise y
 Next, use the homesick command to clone this repository:
 
     homesick clone git@github.com:Mervodactyl/home-files.git
-
-you can now link its contents into your home dir:
+    
+You might see the following:
+```bash
+    home-files has a .homesickrc. Proceed with evaling it? (This could be destructive)
+```
+Just type 'y' or 'yes'. You can now link its contents into your home dir:
 
     homesick symlink home-files
 
