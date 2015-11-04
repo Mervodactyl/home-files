@@ -4,23 +4,57 @@ This contains all my home file configurations (in particular my vim setup) so th
 
 ### Essential Pre-installations:
 
+check out [badassify](http://jilles.me/badassify-your-terminal-and-shell/)
+
 ##### Oh My ZSH ([link](http://ohmyz.sh/))
+
+Internal Terminal 'theme', replaces standard Bash interface
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+##### zsh-syntax-highlighting
+
+Colours your commands within the Terminal window
+
+```bash
+cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
+```
+then fire up the editor again and open ~/.zshrc and add the following line to the end of the file: 
+
+```bash
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
+```
+run 'source ~/.zshrc' for the changes to take effect or restart
+
+Don't forget its your '~/.zshrc' file which contains your alises, shortcuts, and theme settings
+
 ##### Tmux
+
+Used to screen share remote Terminals and more
+
 ```bash
 brew install tmux
 ```
 ##### z
+
+This is a shortcut for when you want to change directories (replaces 'cd' for 'z')
+
 ```bash
 brew install z
 ```
 ##### Git (via homebrew)
+
+Keeps updated this way rather than installed on the mac manually
+
 ```bash
 brew install git
 ```
 ##### Vim (via homebrew)
+
+Vim, ta da
+
 ```bash
 brew install vim
 ```
@@ -31,6 +65,8 @@ We are also installing Git and Vim via homebrew because it makes it easier to up
 
 
 This repo is designed to work with [homesick](https://github.com/technicalpickles/homesick) which handles all my symlinking for me automatically. Much of the configuration is inspired by [Thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles).
+
+##### HomeSick
 
 To install, first install [homesick](https://github.com/technicalpickles/homesick):
 
@@ -58,4 +94,12 @@ run the rc file to get vundler installed:
 
 and restart your terminal.
 
-You can now use the `hup` command to update your home files and install your vim bundles automatically.
+You can now use the `hup` command to update your home files and install your vim bundles automatically
+
+##### Rubes
+
+Starts a Ruby server within the directory
+
+##### ngrok
+
+creates a secure localHost, so you can demo without deploying, MUST download/login before you can use it
