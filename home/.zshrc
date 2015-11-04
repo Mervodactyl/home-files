@@ -6,8 +6,11 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # currently liking: 'miloshadzic', 'blinks', 'smt', 'dogenpunk'
-ZSH_THEME="af-magic"
+# ZSH_THEME="af-magic"
 #ZSH_THEME="darkblood"
+ZSH_THEME="muse"
+# ZSH_THEME="fino"
+# ZSH_THEME="gentoo"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -23,7 +26,7 @@ alias racket="racket -i -p neil/sicp -l xrepl"
 
 # Leo's commandments
 alias flounce='echo "I can'\''t work under these conditions" | lolcat; sleep 1; exit'
-alias hissy_fit='echo "I can'\''t work under these conditions" | lolcat; sleep 1;sudo shutdown -h now'
+alias hissy_fit='echo "I can'\''t work under these conditions" | lolcat; sleep 1; sudo shutdown -h now'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
