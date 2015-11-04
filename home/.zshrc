@@ -124,3 +124,4 @@ bindkey -v
 #alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 #alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
